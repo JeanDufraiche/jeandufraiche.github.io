@@ -1,68 +1,47 @@
-/* Reset some default styling */
-body, h1, h2, p, ul {
-    margin: 0;
-    padding: 0;
-}
-
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
     margin: 0;
     padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
 header {
     background-color: #333;
     color: white;
-    padding: 10px 0;
+    padding: 20px;
     text-align: center;
 }
 
-header nav ul {
+nav ul {
     list-style-type: none;
+    padding: 0;
 }
 
-header nav ul li {
+nav ul li {
     display: inline;
-    margin: 0 20px;
+    margin: 0 15px;
 }
 
-header nav ul li a {
+nav ul li a {
     color: white;
     text-decoration: none;
-    font-size: 18px;
+    font-weight: bold;
 }
 
 section {
     padding: 20px;
-    margin: 20px 0;
-    background-color: white;
+    margin: 20px;
+    background: white;
     border-radius: 8px;
 }
 
-h1, h2 {
-    color: #333;
-}
-
 footer {
-    background-color: #333;
-    color: white;
     text-align: center;
+    background: #333;
+    color: white;
     padding: 10px;
     position: fixed;
     width: 100%;
     bottom: 0;
 }
-
-/* Add some space between sections */
-section {
-    margin-bottom: 30px;
-}
-
-/* Links in publications */
-a {
-    color: #3498db;
-}
-
