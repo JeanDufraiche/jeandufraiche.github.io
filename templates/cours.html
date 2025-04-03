@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mes Cours</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Mes Cours</h1>
+    <ul>
+        <li>Introduction à Python</li>
+        <li>Mathématiques avancées</li>
+        <li>Physique moderne</li>
+    </ul>
+    <a href="{{ url_for('home') }}">Retour à l'accueil</a>
+</body>
+</html>
